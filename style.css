@@ -83,10 +83,12 @@ img {
   #lezioni .row .right{
     float: none;
     margin: 0 auto;
+    width: 100%;
   }
   
   #lezioni .row .right{
     margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   #lezioni>.row>h1{
@@ -96,4 +98,24 @@ img {
   body{
     margin: 0;
   }
+
+  #steps{
+    background-color: white;
+  }
+
+  #steps .row{
+    margin-top: 0;
+  }
+
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right{
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  
+
 }
