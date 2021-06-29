@@ -73,7 +73,7 @@ img {
 }
 
 @media (max-width:420px){
-
+  /* prima sezione */
   #lezioni .row{
     background-color: rgb(242,242,205);
     margin-top: 0;
@@ -95,10 +95,16 @@ img {
     margin-top: 0;
   }
 
-  body{
+  /* questo comando vale per tutta la pagina */
+  h3{
     margin: 0;
   }
 
+  body{
+    margin: 0;
+  }
+  /* prima sezione */
+  /* seconda sezione */
   #steps{
     background-color: white;
   }
@@ -113,9 +119,29 @@ img {
     float: none;
     margin: 0 auto;
     width: 100%;
-    margin-bottom: 30px;
+  }
+  /* seconda sezione */
+  /* terza sezione */
+  #why .row{
+    background-color: rgb(242,242,205);
+    margin-top: 0;
   }
 
-  
+  #why .row>.first, 
+  #why .row>.second, 
+  #why .row>.third {
+    margin-top: 20px;
+}
 
+  hr{
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 95%;
+    border: 1px solid black;
+  }
+
+  #why .row .third{
+    margin-bottom: 20px;
+  }
+  /* terza sezione */
 }
