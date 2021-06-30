@@ -72,7 +72,7 @@ img {
   clear: both;
 }
 
-@media (max-width:420px){
+@media (max-width:419px){
   /* prima sezione */
   #lezioni .row{
     background-color: rgb(242,242,205);
@@ -145,3 +145,90 @@ img {
   }
   /* terza sezione */
 }
+
+@media (min-width:420px) and (max-width: 768px){
+  /* prima sezione */
+  #lezioni .row{
+    background-color: lightskyblue;
+    margin-top: 0;
+  }
+
+  #lezioni .row .left,
+  #lezioni .row .right{
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  #lezioni .row .right{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #lezioni>.row>h1{
+    margin-top: 0;
+    color: red;
+  }
+
+  /* questo comando vale per tutta la pagina */
+  h3{
+    margin: 0;
+  }
+
+  body{
+    margin: 0;
+  }
+  /* prima sezione */
+  /* seconda sezione */
+  #steps{
+    background-color: lightsalmon;
+  }
+
+  #steps .row{
+    margin-top: 0;
+  }
+
+  #steps .row h1{
+    margin-top: 0;
+    color: red;
+    padding-top: 20px;
+  }
+
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right{
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+  /* seconda sezione */
+  /* terza sezione */
+  #why .row{
+    background-color:lightskyblue;
+    ;
+    margin-top: 0;
+  }
+
+  #why>.row>h1{
+    margin-top: 0;
+    color: red;
+    padding-top: 20px;
+  }
+
+  #why .row>.first, 
+  #why .row>.second, 
+  #why .row>.third {
+    margin-top: 20px;
+}
+
+  hr{
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 95%;
+    border: 1px solid seagreen;
+  }
+
+  #why .row .third{
+    margin-bottom: 20px;
+  }
+  /* terza sezione */
