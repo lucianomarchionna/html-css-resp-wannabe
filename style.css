@@ -180,7 +180,7 @@ img {
   }
   /* prima sezione */
   /* seconda sezione */
-  #steps{
+  #steps>.row{
     background-color: lightsalmon;
   }
 
